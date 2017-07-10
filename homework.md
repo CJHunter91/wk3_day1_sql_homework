@@ -51,11 +51,22 @@ INSERT INTO people (name) VALUES ('Alex Bazlinton');
 
 7. John Travolta, has decided to hijack our movie evening, Remove him from the table of people.
 
+DELETE FROM people WHERE name = 'John Travolta';
+
 8. Somehow the list of people includes two people named 'Christopher'. Change these entries to the proper names ('Christopher Whatshisface', 'Christopher Theotherone')
+
+UPDATE people SET name = 'Christopher Whatshisface' WHERE name = 'Christopher Hunter';
+UPDATE people SET name = 'Christopher Theotherone' WHERE name = 'Christopher Donnelly';
 
 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
 
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
+
+
 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 12:10 to 21:30
+
+UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
+
 
 ## Extension
 

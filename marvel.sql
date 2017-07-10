@@ -146,5 +146,4 @@ INSERT INTO attendances (person_id, movie_id) VALUES (13, 1);
 
 
 
-INSERT INTO people (name) VALUES ('Alex Bazlinton');
-SELECT * FROM people;
+SELECT * FROM movies;
