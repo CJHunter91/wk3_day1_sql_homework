@@ -144,3 +144,8 @@ INSERT INTO attendances (person_id, movie_id) VALUES (1, 13);
 INSERT INTO attendances (person_id, movie_id) VALUES (10, 15);
 INSERT INTO attendances (person_id, movie_id) VALUES (13, 1);
 
+
+
+UPDATE people SET name = 'Dell Boy Middlemiss' WHERE name = 'Del Boy Middlemiss';
+
+SELECT * FROM people ;
