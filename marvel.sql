@@ -146,6 +146,5 @@ INSERT INTO attendances (person_id, movie_id) VALUES (13, 1);
 
 
 
-UPDATE people SET name = 'Dell Boy Middlemiss' WHERE name = 'Del Boy Middlemiss';
-
-SELECT * FROM people ;
+INSERT INTO people (name) VALUES ('Alex Bazlinton');
+SELECT * FROM people;
