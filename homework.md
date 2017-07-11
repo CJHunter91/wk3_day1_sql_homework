@@ -77,3 +77,6 @@ DELETE FROM people WHERE name IN ('Christopher Donnelly', 'Martin Eguizabel', 'J
 DELETE FROM people WHERE id BETWEEN 1 AND 4; 
 
 DELETE FORM movies WHERE year > 2010;
+
+SELECT * FROM movies ORDER BY name ASC;
+SELECT * FROM movies ORDER BY show_time, name ASC;

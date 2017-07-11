@@ -145,5 +145,4 @@ INSERT INTO attendances (person_id, movie_id) VALUES (10, 15);
 INSERT INTO attendances (person_id, movie_id) VALUES (13, 1);
 
 
-DELETE FROM people WHERE name IN ('Christopher Donnelly', 'Martin Eguizabel', 'John Travolta', 'Tracy Steinberg');
-SELECT * FROM people;
+SELECT * FROM movies ORDER BY show_time, title ASC;
