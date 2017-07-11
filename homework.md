@@ -73,3 +73,7 @@ UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
 1. Research how to delete multiple entries from your table in a single command.
 
 DELETE FROM people WHERE name IN ('Christopher Donnelly', 'Martin Eguizabel', 'John Travolta', 'Tracy Steinberg');
+
+DELETE FROM people WHERE id BETWEEN 1 AND 4; 
+
+DELETE FORM movies WHERE year > 2010;
